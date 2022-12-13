@@ -1,0 +1,8 @@
+body {
+    background-color: $background;
+    .btn-primary:hover {
+        border: 1px solid white;
+        background-color: black;
+    }
+    margin-bottom: 40px;
+}
