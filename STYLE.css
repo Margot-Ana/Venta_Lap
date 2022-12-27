@@ -1,0 +1,395 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+}
+
+h1,h2,h3,h4,a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* editar header */
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 3px 5px rgba(95, 94, 94, 0.253);
+}
+.header{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+img{
+    width: 170px;
+}
+
+.logo{
+    width: 180px;
+    height: 100px;
+}
+
+.navegacion{
+    width: 700px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    justify-content: space-between;
+}
+.navegacion a{
+    font-size: 20px;
+    color: rgb(19, 242, 250);
+}
+.navegacion a:hover{
+    transition: .8s;
+    color: rgb(27, 148, 247);
+}
+
+
+/* seccion portada */
+
+#portada{
+    padding: 10px 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cabeza{
+    width: 80%;
+    height: 50px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    display: flex;
+    background-color: rgb(19, 236, 252);
+}
+.cabeza h3{
+    margin: auto;
+    color: rgb(0, 0, 0);
+}
+
+.tarjeta{
+    width: 65%;
+    height: 450px;
+    border-radius: 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 15PX rgba(68, 68, 68, 0.308);
+}
+.caracteristicas{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.img-producto{
+    width: 55%;
+    height: 100%;
+    background-size: 450px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(./img/portada/1.jpg);
+}
+
+
+
+/*SECTION SERVICIOS*/
+#servicios{
+    padding: 50px 0 0 0 ;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenido-servicios{
+    width: 80%;
+    height: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+#servicios h1{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.servicios-icon{
+    width: 31%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.icono{
+    width: 180px;
+    height: 180px;
+    display: flex;
+    padding: 15px 0;
+    align-items: flex-end;
+    justify-content: center;
+}
+.icono img{
+    width: 70px;
+}
+.decripcion{
+    width: 100%;
+    height: 100px;
+}
+.decripcion button{
+    width: 100%;
+    border: none;
+    background-color: white;
+    height: 70px;
+}
+.decripcion button:hover{
+    color: rgba(41, 41, 41, 0.596);
+}
+button #grande{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+
+
+
+#productos{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.target{
+    width: 25%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.349);
+    margin: 15px 10px;
+    height: 400px;
+}
+
+.target button{
+    width: 80%;
+    height: 26px;
+    background-color: aqua;
+    border: none;
+}
+.target button:hover{
+    background-color: rgb(97, 97, 236);
+}
+.img-laptop{
+    width: 100%;
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./img/portada/1.jpg);
+}
+.text-caracteristicas{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* nosotros */
+
+
+#nosotros{
+    width: 100%;
+    display: flex;
+    height: 100vh;
+}
+
+.container-nosotro{
+    width: 80%;
+    height: 90vh;
+    margin: auto;
+    display: flex;
+}
+.text{
+    width: 50%;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.img-nosotros{
+    width: 50%;
+    background-image: url(./img/nosotros.png);
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: center;
+    height: 100%;
+}
+
+
+/* footer */
+
+footer{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+}
+.nav{
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav a{
+    color:white ;
+    padding: 15px 35px;
+}
+.nav a:hover{
+    color: aqua;
+    transition: .8s;
+}
+.redes-sociales{
+    width: 80%;
+    height: 100px;
+    display: flex;
+    border-top: 1px solid rgba(255, 255, 255, 0.274);
+}
+.copy{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.icon-redes{
+    width: 50px;
+    height: 50px;
+}
+.icon-redes img{
+    width: 50px;
+}
+
+
+@media screen and (max-width:450px){
+
+   header{
+    height: 25vh;
+   } 
+   .header{
+    justify-content: flex-start;
+    flex-direction: column;
+   }
+   .navegacion{
+    justify-content: center;
+   }
+   .navegacion a{
+    padding: 5px;
+    font-size: 13px;
+   }
+
+   .cabeza h3{
+    text-align: center;
+    font-size: 13px;
+   }
+
+   .tarjeta{
+    width: 90%;
+    flex-direction: column;
+   }
+   .caracteristicas{
+    width: 100%;
+    text-align: center;
+   }
+   .img-producto{
+    background-size: 250px;
+    width: 100%;
+   }
+
+
+   #servicios{
+    height: 120vh;
+   }
+   .contenido-servicios{
+    height: 100vh;
+    flex-direction: column;
+   }
+
+   #productos{
+    align-items: center;
+    flex-direction: column;
+   }
+
+   .target{
+    width: 90%;
+   }
+
+   #nosotros{
+    height: auto;
+    margin: 15px 0;
+   }
+
+   .container-nosotro{
+    width: 90%;
+    flex-direction: column;
+   }
+
+   .text{
+    height: 50%;
+    width: 100%;
+   }
+
+   .img-nosotros{
+    width: 100%;
+    background-size: 300px;
+   }
+
+   .nav{
+    width: 100%;
+   }
+   .nav a{
+    padding: 0 15px;
+    font-size: 13px;
+   }
+   .redes-sociales{
+    width: 90%;
+    align-items: center;
+    flex-direction: column;
+   }
+   .copy{
+    width: 100%;
+   }
+   .redes{
+    width: 100%;
+   }
+   .icon-redes img{
+    width: 30px;
+   }
+}
